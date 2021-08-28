@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="https://github.com/mate-desktop/mate-icon-theme/raw/master/mate/16x16/categories/preferences-desktop.png" />
+  <title>mate-control-center Code Analyzer results</title>
+</head>
+<body>
+<h1>
+  <a href="https://github.com/mate-desktop">mate-desktop</a>/<a href="https://github.com/mate-desktop/mate-control-center">mate-control-center</a> Static analyzer results
+</h1>
+  <a href="https://github.com/mate-desktop/mate-control-center" title="Github"><i class="fa fa-github fa-2x"></i>GitHub</a>
+  <a href="https://app.travis-ci.com/mate-desktop/mate-control-center/builds/236421773" title="Travis CI"><img src="https://travis-ci.org/mate-desktop/mate-control-center.svg?branch=master" alt="Build Status" /></a>
+<hr/>
+Commit: <a href="https://github.com/mate-desktop/mate-control-center/commit/d938ffc62902e36bfde84594873d4a3b8eaf0934">d938ffc62902e36bfde84594873d4a3b8eaf0934</a><br/>
+Compare: <a href="https://github.com/mate-desktop/mate-control-center/compare/b30a29be43d8...d938ffc62902">b30a29be43d8...d938ffc62902</a><br/>
+Branch: <a href="https://github.com/mate-desktop/mate-control-center/tree/master">master</a><br/>
+Time: 2021-08-28 07:00:51+00:00<br/>
+Messages:<br/>
+<pre>
+Maintain compatibility with Glibc versions older than 2.66. Fixes #655 (#659)
+
+g_bookmark_file_set_modified_date_time is used in libslab/bookmark-agent.c which sets the last time the bookmark for uri was last modified.
+
+g_bookmark_file_set_modified_date_time is only available in glibc 2.66 and newer.
+</pre>
+<hr/>
+<ul>
+<li><a href="2021-08-28-070051-5893-cppcheck@d938ffc62902_master">2021-08-28-070051-5893-cppcheck@d938ffc62902_master</a></li>
+<li><a href="2021-08-28-065638-15756-1@d938ffc62902_master">2021-08-28-065638-15756-1@d938ffc62902_master</a></li>
+<li><a href=2021-08-25-132048-3002-cppcheck@6f94ba82acc6_glibc-compat>2021-08-25-132048-3002-cppcheck@6f94ba82acc6_glibc-compat</a></li>
+<li><a href=2021-08-25-131631-15756-1@6f94ba82acc6_glibc-compat>2021-08-25-131631-15756-1@6f94ba82acc6_glibc-compat</a></li>
+<li><a href=2021-08-24-141005-9015-cppcheck@eff38237ac81_glibc-266>2021-08-24-141005-9015-cppcheck@eff38237ac81_glibc-266</a></li>
+<li><a href=2021-08-24-140547-15757-1@eff38237ac81_glibc-266>2021-08-24-140547-15757-1@eff38237ac81_glibc-266</a></li>
+<li><a href=2021-08-07-120808-7081-cppcheck@b30a29be43d8_v1.26.0>2021-08-07-120808-7081-cppcheck@b30a29be43d8_v1.26.0</a></li>
+<li><a href=2021-08-07-120350-16023-1@b30a29be43d8_v1.26.0>2021-08-07-120350-16023-1@b30a29be43d8_v1.26.0</a></li>
+<li><a href=2021-07-10-113826-8250-cppcheck@15f1a9f8d57c_master>2021-07-10-113826-8250-cppcheck@15f1a9f8d57c_master</a></li>
+<li><a href=2021-07-10-113405-15822-1@15f1a9f8d57c_master>2021-07-10-113405-15822-1@15f1a9f8d57c_master</a></li>
+<li><a href=2021-06-21-161443-3177-cppcheck@67fc8e6b584f_master>2021-06-21-161443-3177-cppcheck@67fc8e6b584f_master</a></li>
+<li><a href=2021-06-21-161029-15812-1@67fc8e6b584f_master>2021-06-21-161029-15812-1@67fc8e6b584f_master</a></li>
+<li><a href=2021-05-30-115720-3041-cppcheck@33011a254ede_v1.25.2>2021-05-30-115720-3041-cppcheck@33011a254ede_v1.25.2</a></li>
+<li><a href=2021-05-30-115305-15797-1@33011a254ede_v1.25.2>2021-05-30-115305-15797-1@33011a254ede_v1.25.2</a></li>
+<li><a href=2021-05-30-111745-9924-cppcheck@33011a254ede_v1.25.2>2021-05-30-111745-9924-cppcheck@33011a254ede_v1.25.2</a></li>
+<li><a href=2021-05-30-111327-15797-1@33011a254ede_v1.25.2>2021-05-30-111327-15797-1@33011a254ede_v1.25.2</a></li>
+<li><a href=2021-04-26-144355-1439-cppcheck@961d54c76c76_undo-reorder>2021-04-26-144355-1439-cppcheck@961d54c76c76_undo-reorder</a></li>
+<li><a href=2021-04-26-143950-15366-1@961d54c76c76_undo-reorder>2021-04-26-143950-15366-1@961d54c76c76_undo-reorder</a></li>
+<li><a href=2021-04-26-143302-1420-cppcheck@b98ee1554602_undo-reorder>2021-04-26-143302-1420-cppcheck@b98ee1554602_undo-reorder</a></li>
+<li><a href=2021-04-26-142857-15587-1@b98ee1554602_undo-reorder>2021-04-26-142857-15587-1@b98ee1554602_undo-reorder</a></li>
+</ul>
+</body>
+</html>
